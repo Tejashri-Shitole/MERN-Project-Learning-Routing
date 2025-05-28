@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  /* font-family: "National Park", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* .navbar-home{
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 50 !important;
+} */
+
+.nav-btn {
+  position: relative;
+  left: 550px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-btn:hover {
+  color: #0f445f;
+  background-color: #4b8ca7;
+  font-weight: 500;
+}
+
+.home_comp {
+  /* background-color: #6EC1E4; */
+  /* height: 100vh; */
+  background-image: url("assets/elevated-view-laptop-stationeries-blue-backdrop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home_comp h4 {
+  margin-top: 60px;
+  margin-left: 86px;
+}
+
+/* .glow-text {
+  color: black;
+  text-shadow: 0 0 5px #323d79, 0 0 10px #bd52a2, 0 0 20px #00b5d8, 0 0 40px #3b7177;
+
+} */
+
+.home {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  margin-left: 15vw;
+}
+
+.courses {
+  color: #125462;
+}
+
+.courses:hover {
+  cursor: pointer;
+  color: rgb(46, 119, 138);
+}
+
+.icons_2 {
+  margin-left: 20px;
+}
+
+.btn {
+  margin: 0 0 40px 80px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  color: #0a6091;
+  background-color: #a4d4e4;
+  font-weight: 500;
+}
+
+/*HTML page css */
+
+.learn-css {
+  margin-left: 45vw;
+  /* margin-bottom: 40px; */
+}
+
+.learn-css:hover {
+  background-color: #263b63;
+  font-weight: 500;
+}
+
+.learn-js:hover {
+  background-color: #263b63;
+}
+
+.js-img {
+  height: 275px;
+  padding: 10px;
+  background-color: #f7df1e;
+}
+
+.ang-img{
+    height: 246px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.btn-course{
+    color: white;
+    position: relative;
+    left: 130px;
+    padding: 8px 40px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.html-btn{
+  margin-left: 15px;
+}
+
+.css-btn{
+  margin-left: 20px;
+}
