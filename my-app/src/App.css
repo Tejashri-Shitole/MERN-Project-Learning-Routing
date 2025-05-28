@@ -6,12 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* .navbar-home{
-  position: sticky !important;
-  top: 0 !important;
-  z-index: 50 !important;
-} */
-
 .nav-btn {
   position: relative;
   left: 550px;
@@ -26,8 +20,6 @@
 }
 
 .home_comp {
-  /* background-color: #6EC1E4; */
-  /* height: 100vh; */
   background-image: url("assets/elevated-view-laptop-stationeries-blue-backdrop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,12 +30,6 @@
   margin-top: 60px;
   margin-left: 86px;
 }
-
-/* .glow-text {
-  color: black;
-  text-shadow: 0 0 5px #323d79, 0 0 10px #bd52a2, 0 0 20px #00b5d8, 0 0 40px #3b7177;
-
-} */
 
 .home {
   display: flex;
@@ -85,7 +71,6 @@
 
 .learn-css {
   margin-left: 45vw;
-  /* margin-bottom: 40px; */
 }
 
 .learn-css:hover {
@@ -108,6 +93,8 @@
     padding: 10px;
     background-color: #ffffff;
 }
+
+/*buttons CSS*/
 
 .btn-course{
     color: white;
